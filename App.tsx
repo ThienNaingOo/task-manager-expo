@@ -12,10 +12,10 @@ export default function App() {
     <SafeAreaProvider>
       <StatusBar />
       <NavigationContainer>
-        <Stack.Navigator initialRouteName='home' screenOptions={{headerShown: true}}>
+        {/* <Stack.Navigator initialRouteName='home' screenOptions={{headerShown: true}}>
           <Stack.Screen name="home" component={Home} options={{title: 'Task Manager'}}/>
           <Stack.Screen name="create" component={Create} options={{title: 'Edit Task'}}/>
-        </Stack.Navigator>
+        </Stack.Navigator> */}
       </NavigationContainer>
     </SafeAreaProvider>
   );
